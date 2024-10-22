@@ -95,3 +95,18 @@ body{
 .footer a:hover{
     color: darkgray;
 }
+.contact{
+    padding: 50px 0;
+    text-align: center;
+    display: block;
+    color: black;
+    font-size: 16pt;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 80vw;
+    margin-bottom: 20px;
+    padding: 10px;
+}
