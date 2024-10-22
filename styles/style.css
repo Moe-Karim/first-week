@@ -43,7 +43,7 @@ body{
     float: right;
     margin-top:180px;
 }
-.aboutme{
+.aboutme, .education, .skills{
     margin-top: 50px;
     border-bottom: 1px solid black;
     font-size: 16pt;
@@ -54,7 +54,11 @@ body{
     text-align: justify;
     margin: 10px;
 }
-.aboutme h2{
+.aboutme, .education, .skills h2{
     text-align: left;
     margin-bottom: 20px;
+}
+.education ul li{
+    margin: 20px;
+    list-style:circle;
 }
