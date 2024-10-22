@@ -3,12 +3,12 @@
 }
 body{
     width: 80vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .headers{
     display:inline-block;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-bottom: 1px solid black;
-    font-size: 16pt;
+    font-size: 20pt;
     width: 80vw;
     margin: 10px;
 }
@@ -42,4 +42,15 @@ body{
 .menu{
     float: right;
     margin-top:180px;
+}
+.aboutme{
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    font-size: 16pt;
+    width: 80vw;
+
+}
+.aboutme p{
+    text-align: center;
+    margin: 10px;
 }
